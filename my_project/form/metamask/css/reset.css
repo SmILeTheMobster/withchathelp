@@ -1,0 +1,292 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&amp;display=swap";
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0
+}
+
+.header-container {
+    background-color: #f2f3f4
+}
+
+.header-block,
+.content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px
+}
+
+.header-block-logotype {
+    max-width: 162px
+}
+
+.mm-password-dropdown {
+    position: relative;
+    top: -35px;
+    float: right;
+    font-size: 12px;
+    color: #535a61;
+    border: 1px solid #bbc0c5;
+    border-radius: 100px;
+    padding: 10px 30px 10px 10px;
+    cursor: pointer
+}
+
+.mm-password-dropdown-figure {
+    display: inline-block;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #29b6af;
+    top: 2px;
+    margin-right: 5px
+}
+
+.mm-password-dropdown svg {
+    position: absolute;
+    height: 17px
+}
+
+.content-heading {
+    font-size: 36px;
+    font-weight: 400
+}
+
+.content-text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #24272a
+}
+
+.content-text a {
+    color: #037dd6;
+    text-decoration: none
+}
+
+.content-text a:hover {
+    color: #0260a4
+}
+
+.content-dropdown-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.content-dropdown-heading,
+.content-dropdown-inner {
+    width: 100%
+}
+
+.content-dropdown-inner {
+    position: relative
+}
+
+.content-dropdown-heading {
+    font-size: 18px;
+    font-weight: 400
+}
+
+.content-dropdown {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid #bbc0c5;
+    border-radius: 4px;
+    appearance: none;
+    padding: 8px 40px 8px 16px
+}
+
+.content-dropdown option {
+    min-height: 17px;
+    padding: 0 2px 2px 1px
+}
+
+.content-dropdown-inner svg {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    pointer-events: none
+}
+
+.content-notify-container {
+    text-align: center;
+    margin: 25px 0
+}
+
+.content-notify {
+    display: inline-block;
+    font-size: 12px;
+    color: #24272a;
+    background-color: #e6f2fb;
+    border: 1px solid #037dd6;
+    border-radius: 8px;
+    padding: 16px 12px
+}
+
+.content-notify svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: bottom;
+    margin-right: 4px
+}
+
+
+.content-input-inner {
+    text-align: center;
+    margin: 8px 0;
+}
+
+.content-input-label {
+    width: 25px;
+    text-align: right;
+    font-size: 16px;
+    margin-right: 20px
+}
+
+.content-input {
+    width: 210px;
+    height: 48px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    border: 1px solid #bbc0c5;
+    border-radius: 6px;
+    padding: 8px 16px
+}
+
+.content-input:focus {
+    outline: none;
+    border-color: #037dd6
+}
+
+.content-input-icon {
+    color: #6a737d;
+    cursor: pointer;
+    margin-left: 10px
+}
+
+.content-key-text {
+    font-size: 16px
+}
+
+.content-key-inner {
+    display: flex;
+    align-items: center
+}
+
+.content-key-input-icon {
+    margin-left: 5px;
+    cursor: pointer
+}
+
+.content-key-input {
+    display: block;
+    width: 60%;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    border: 1px solid #bbc0c5;
+    border-radius: 6px;
+    padding: 12px 16px
+}
+
+.content-key-input:focus {
+    outline: none;
+    border-color: #037dd6
+}
+
+.content-key-error-label {
+    display: none;
+    color: #f44336;
+    margin-top: 5px
+}
+
+.content-inputs-error-container {
+    display: block;
+    font-size: 12px;
+    color: #24272a;
+    background-color: #fbeced;
+    border: 1px solid #d73a49;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 16px 12px
+}
+
+.content-inputs-error-container svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: bottom;
+    margin-right: 4px
+}
+
+.content-password-container {
+    margin: 20px 0
+}
+
+.content-password-inner {
+    margin-bottom: 20px
+}
+
+.content-password-label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px
+}
+
+.content-password-input {
+    display: block;
+    width: 360px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    border: 1px solid #bbc0c5;
+    border-radius: 6px;
+    padding: 16px
+}
+
+.content-password-input:focus {
+    outline: none;
+    border-color: #037dd6
+}
+
+.content-password-error-label {
+    display: none;
+    font-size: 12px;
+    color: #f44336;
+    margin-top: 10px
+}
+
+.content-button {
+    display: block;
+    width: 170px;
+    background-color: #037dd6;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 12px 0;
+    margin-bottom: 25px
+}
+
+.content-button:disabled {
+    opacity: .5;
+    pointer-events: none
+}
+
+.content-container.content-key-window .content-inputs-error-container {
+    display: none !important
+}
